@@ -15,7 +15,7 @@ You can train yours by getting the data from [Open Web Text](https://skylion007.
 
 Steps to Run this LLM: (on linux environment)
 1. Create your venv.
-
+Use command `python3 -m venv env_name`
 2. Make sure you have pytorch on your venv [Pytorch Installation link](https://pytorch.org/get-started/locally/)       
 I would suggest to go with the lastest version of CUDA.    
 
