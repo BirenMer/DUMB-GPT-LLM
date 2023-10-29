@@ -26,7 +26,7 @@ I would suggest to go with the lastest version of CUDA.
 6. After the extraction is done. Go to chatbot.py and make sure the paths are correct.
 7. After that open your terminal and type the magical words (obviously this are for my model :grin: That you have pre tarained with the repo)
 `python3 chatbot.py -batch_size 48`    
-  
+Don't forget to download the GPT model from [here](https://drive.google.com/file/d/1jBqRjpzoVb_u6Zv2WQbBTgvYqBav9dF8/view?usp=drive_link)      
 This is because the current model was trained on 48 batch size you can adjust this as per your graphics card's convenience. :grimacing:      
 
 Also make sure to change the batch size when ever you try to traing your own model using the file `training.py`    
