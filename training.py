@@ -251,7 +251,7 @@ for iter in range(max_iters):
     optimizer.step()
 print(loss.item())
 
-with open('GPT-model-03.pkl', 'wb') as f: #Rename you custom GPT model here
+with open('GPT-model-100K.pkl', 'wb') as f: #Rename you custom GPT model here
     pickle.dump(model, f)
 print('model saved')
 

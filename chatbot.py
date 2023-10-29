@@ -185,8 +185,8 @@ class GPTLanguageModel(nn.Module):
         return index
 
 model = GPTLanguageModel(vocab_size)
-print('loading model parameters...')
-with open('GPT-model-03.pkl', 'rb') as f: #Please change the name to your desired name if you decide to train you own GPT model.
+print('loading 100K GPT model parameters...')
+with open('GPT-model-100K.pkl', 'rb') as f: #Please change the name to your desired name if you decide to train you own GPT model.
     model = pickle.load(f)
 print('loaded successfully!')
 m = model.to(device)
