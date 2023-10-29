@@ -225,10 +225,6 @@ class GPTLanguageModel(nn.Module):
         return index
 
 model = GPTLanguageModel()
-# print('loading model parameters...')
-# with open('model-01.pkl', 'rb') as f:
-#     model = pickle.load(f)
-# print('loaded successfully!')
 m = model.to(device)
 
 
